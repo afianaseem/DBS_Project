@@ -1,0 +1,700 @@
+#brand
+{
+    background: linear-gradient(180deg,rgb(72, 130, 224),rgb(65, 66, 68));
+    height: 110px;
+    line-height: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.surah_name
+{
+    width:100%;
+    height:80px;
+    margin-left: 235px;
+    margin-top: -20px;
+}
+#name
+{
+    height: 90px;
+    line-height: 90px;
+    margin-left: 35%;
+}
+#urdu
+{   
+    margin-top: 20px;
+}
+.above_mode
+{     
+    border:2px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119));
+    background:linear-gradient(180deg,rgb(103, 153, 233),rgb(115, 117, 119)); 
+    align-items: center;
+    border-radius: 10%;
+    margin: 10px;
+    border:none;
+    height: 60px;
+    position: relative;
+    width: 180px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.above_mode:hover
+{
+    border:4px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119));
+    box-shadow: 0 0 20px 6px rgba(3, 3, 80, 0.6);
+}
+.main_buttons
+{
+    border:2px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119));
+    background:linear-gradient(180deg,rgb(103, 153, 233),rgb(115, 117, 119)); 
+    margin-top: 30px;
+    border-radius: 20%;
+    height: 50px;
+    width: 180px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;  
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+}
+.scrollable {
+    overflow-y: auto;
+    max-height: 400px; /* Adjust the max height as needed */
+}
+
+.b2
+{
+    border:2px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119));
+    background:linear-gradient(180deg,rgb(103, 153, 233),rgb(115, 117, 119)); 
+    margin-top: 30px;
+    border-radius: 10%;
+    height: 50px;
+    width: 180px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;  
+    border: 1 px solid rgb(80, 88, 100) ;
+    margin-left: 30px;
+}
+#hr{
+    width: 180px;
+}
+.main_buttons:hover
+{
+    border:2px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119));
+    box-shadow: 0 0 20px 6px rgba(3, 3, 80, 0.6);
+}
+.container-fluid
+{
+   
+    height: 100%;
+    position: absolute;
+    margin-top: 55px;
+    
+}
+#new_hr {
+    height: 1px; /* Adjust the height of the hr */
+   border: 1px solid  rgb(2, 2, 43);
+}
+
+#containerurdu
+{
+    height: 100%;
+    position: absolute;
+    margin-top: 15px;
+    width: 100%;
+}
+#containerfavourites
+{
+    border:2px solid black;
+    height: 100%;
+    position: absolute;
+    margin-top: 15px;
+    width: 100%;
+}
+#b1
+{
+    display: flex;
+    flex-direction: column;
+    
+    border:3px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119));
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+.col-scrollable {
+    overflow-y: auto;
+    max-height: 350px; 
+}
+#verse-containerurdu
+{
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
+}
+
+#verse-container{
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
+    overflow-y: auto;
+    max-height: 450px; 
+    margin-left: 140px;
+    position: relative;
+}
+
+#favourites_container{
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
+    
+    max-height: 450px; 
+    margin-left: 140px;
+    position: absolute;
+}
+#verse-containereng{
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
+}
+#logo_home
+{
+    margin-left: 80px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#logo_bookmarks{
+    margin: 5px;
+}
+#logout
+{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#delete
+{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#logo_quran
+{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 7px;
+}
+#verse-containerurdu
+{  
+    margin-top: 30px;
+    border: 1px solid rgb(1, 1, 29);
+    box-shadow: 0 0 20px 6px rgba(3, 3, 80, 0.6);
+    width: 600px;
+    border:2px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119));
+    background:linear-gradient(180deg,rgb(168, 200, 252),rgb(199, 206, 212)); 
+    border-radius: 2%;
+}
+.b2:hover
+{
+    box-shadow: 0 0 20px 6px rgba(3, 3, 80, 0.6);
+}
+#verse-container
+{   
+    margin-top: 30px;
+    border: 1px solid rgb(1, 1, 29);
+    box-shadow: 0 0 20px 6px rgba(3, 3, 80, 0.6);
+    width: 600px;
+    border:2px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119));
+    background:linear-gradient(180deg,rgb(168, 200, 252),rgb(199, 206, 212)); 
+    border-radius: 2%;
+}
+#verse-containereng
+{   
+    margin-top: 30px;
+    border: 1px solid rgb(1, 1, 29);
+    box-shadow: 0 0 20px 6px rgba(3, 3, 80, 0.6);
+    width: 600px;
+    border:2px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119));
+    background:linear-gradient(180deg,rgb(168, 200, 252),rgb(199, 206, 212)); 
+    border-radius: 2%;
+}
+#verse-containertafseer
+{   
+    margin-top: 30px;
+    border: 1px solid rgb(1, 1, 29);
+    box-shadow: 0 0 20px 6px rgba(3, 3, 80, 0.6);
+    width: 600px;
+    border:2px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119));
+    background:linear-gradient(180deg,rgb(168, 200, 252),rgb(199, 206, 212)); 
+}
+.surah_imgs
+{
+
+ height: 100px;
+ margin-top: 30px;
+}
+.adjusting
+{
+    margin: 30px;
+    cursor:pointer;
+    
+}
+/* #s_container{
+    border:2px solid rgb(58, 104, 179);
+    height: 800px;
+    box-shadow: 0 0 20px 6px rgba(3, 3, 80, 0.6);
+    border-radius: 10px;
+} */
+.bi-heart {
+    cursor: pointer;
+}
+
+#containerfavourites
+{
+    /* border:4px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119)); */
+    /* box-shadow: 0 0 200px 600px rgba(71, 121, 201, 0.6); */
+    position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); 
+    width: 50%; background-color: white;
+     border: 1px solid #ccc; border-radius: 10px;
+     z-index: 1000;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+     overflow-y: auto;
+    max-height: 550px; 
+}
+#res
+{
+    width:60px;
+    height: 40px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: -1px;
+    position: absolute;
+   
+    cursor: pointer;
+}
+#playbtn
+{
+   
+   cursor: pointer;
+}
+#stopbtn
+{
+   display: none;
+   cursor: pointer;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+} */
+
+
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    margin-top: 0;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btnl {
+    display: inline-block;
+    background-color: #1212a7;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btnl:hover {
+    background-color: #2633bab0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.container11 {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#main_bar
+{
+    display: flex;
+    flex-direction: row;
+     margin-left: 250px;
+     margin-top: 20px;
+     position: relative;
+     width:800px;
+     height: 80px;
+     line-height: 60px;;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #45a049;
+}
+
+.message {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+#delete-message-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+/* Dropdown menu styles */
+#dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: -250px; /* Start off-screen */
+    width: 250px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+    transition: right 0.5s ease-in-out;
+}
+
+#dropdown-menu.show {
+    display: block;
+    right: 10px; /* Move on-screen */
+}
+
+#dropdown-menu .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+
+.menu-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.menu-item span {
+    font-size: 16px;
+}
+hr {
+    margin: 10px 0;
+}
+/* Background overlay styles */
+.background-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(10px);
+    z-index: 1000; 
+}
+
+/* Change Password Form styles */
+.change-password-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    border:4px solid linear-gradient(180deg,rgb(71, 121, 201),rgb(115, 117, 119));
+    box-shadow: 0 0 20px 6px rgba(3, 3, 80, 0.6);
+    z-index: 1001;
+    width: 400px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.change-password-form.show {
+    display: block;
+    opacity: 1;
+}
+
+.change-password-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.change-password-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.change-password-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.change-password-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-buttons button[type="submit"] {
+    background-color: rgb(71, 121, 201);
+    color: white;
+}
+
+.form-buttons button[type="button"] {
+    background-color: #d63226;
+    color: white;
+}
+#bookmark-popup {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#bookmark-popup span {
+    display: block;
+    margin: 5px 0;
+}
+
+#bookmark-popup span:first-child {
+    cursor: pointer;
+}
+
+#bookmark-popup span:last-child {
+    float: right;
+    cursor: pointer;
+}
+#containerbookmarks {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    height: 100%;
+    max-height: 550px;
+    padding: 20px;
+    display: none; /* Initially hidden */
+}
+
+#res {
+    width: 60px;
+    height: 40px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: -1px;
+    position: absolute;
+    cursor: pointer;
+}
+#small-boxes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-height: 100%;
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+.dua-container {
+    border: 2px solid linear-gradient(180deg, rgb(71, 121, 201), rgb(115, 117, 119));
+    box-shadow: 0 0 20px 6px #030372b3;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+/* Style for Arabic text */
+.arabic-text {
+    color: rgba(3, 3, 80, 0.6);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* Style for other dua attributes */
+.dua-attribute {
+    font-size: 19px;
+    text-align: center;
+    margin: 15px;
+}
+
+/* Style for Name */
+#duaname {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+}
+.container1 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    max-width: 100%; /* Allow container to take full width */
+    flex-wrap: wrap; /* Allow boxes to wrap to next line if needed */
+    margin: 40px auto; /* Adjust margin as needed */
+}
+
+.new_hr {
+    height: 1px;
+    border: 1px solid rgb(2, 2, 43);
+}
+
+#popup{
+    display: none;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 200px;
+    max-width: 250px;
+    height: auto;
+    text-align: center;
+    background-color: #8dc4e0;
+    border-radius: 5px;
+    margin: 20px;
+    color:rgb(9, 39, 91);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.box1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 123, 255, 0.795);
+    border: 3px solid #005ec2b7;
+}
+
+.box1 img {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
